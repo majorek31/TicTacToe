@@ -1,4 +1,6 @@
 #pragma once
+#include <stdio.h>
+#include <time.h>
 #include "Entities/BaseObject.h"
 #include "Map.h"
 #include "Types/ObjectType.h"
