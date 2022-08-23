@@ -1,11 +1,9 @@
 #pragma once
-#include "../Types/ObjectType.h"
-#include "../Types/AILevels.h"
-#include "../Types/GameStartInfo.h"
-#include "../Map.h"
+#include "../Game.h"
+class Game;
 class AI
 {
 public:
-	static int PredictNextBotMove(Map* map, ObjectType botObject, AILevel level);
+	static int PredictNextBotMove(Game* game, ObjectType botObject, AILevel level);
 };
 
