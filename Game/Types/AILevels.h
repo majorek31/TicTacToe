@@ -1,0 +1,7 @@
+#pragma once
+enum class AILevel
+{
+	AI_LEVEL_MODE_EASY,
+	AI_LEVEL_MODE_MEDIUM,
+	AI_LEVEL_MODE_PROFESSIONAL
+};
