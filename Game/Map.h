@@ -4,6 +4,7 @@ class Map
 {
 public:
 	BaseObject* GetObjectAt(int point);
+	bool HasFreeField();
 private:
 	BaseObject map[9];
 };
