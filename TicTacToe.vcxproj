@@ -139,7 +139,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Game\Drawing\ConsoleRenderer.cpp" />
+    <ClCompile Include="Game\AI\AI.cpp" />
+    <ClCompile Include="Game\Game.cpp" />
+    <ClCompile Include="Game\Entities\BaseObject.cpp" />
+    <ClCompile Include="Game\Map.cpp" />
+    <ClCompile Include="Game\Utils\Utils.cpp" />
     <ClCompile Include="TicTacToe.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Drawing\ConsoleRenderer.h" />
+    <ClInclude Include="Game\AI\AI.h" />
+    <ClInclude Include="Game\Game.h" />
+    <ClInclude Include="Game\Entities\BaseObject.h" />
+    <ClInclude Include="Game\Map.h" />
+    <ClInclude Include="Game\Types\AILevels.h" />
+    <ClInclude Include="Game\Types\GameStartInfo.h" />
+    <ClInclude Include="Game\Types\ObjectType.h" />
+    <ClInclude Include="Game\Utils\Utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
