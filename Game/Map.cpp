@@ -9,5 +9,7 @@ bool Map::HasFreeField() {
 	}
 }
 bool Map::IsFree(int point) {
-	return !(bool)this->GetObjectAt(point)->GetObjectType();
+	if (this->GetObjectAt(point)->GetObjectType() == ObjectType::OBJECT_NULL)
+		return true;
+	return false;
 }
