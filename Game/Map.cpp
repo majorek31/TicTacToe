@@ -8,3 +8,6 @@ bool Map::HasFreeField() {
 			return true;
 	}
 }
+bool Map::IsFree(int point) {
+	return !(bool)this->GetObjectAt(point)->GetObjectType();
+}
