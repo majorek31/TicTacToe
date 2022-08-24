@@ -9,6 +9,8 @@
 #include "Types/AILevels.h"
 #include "Types/GameStartInfo.h"
 #include "AI/AI.h"
+#include "Utils/Utils.h"
+#include "Drawing/ConsoleRenderer.h"
 class Game
 {
 public:
@@ -20,3 +22,5 @@ private:
 	GameStartInfo gameStartInfo;
 };
 
+
+class Game;
