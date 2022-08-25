@@ -155,6 +155,7 @@
     <ClInclude Include="Game\Map.h" />
     <ClInclude Include="Game\Types\AILevels.h" />
     <ClInclude Include="Game\Types\GameStartInfo.h" />
+    <ClInclude Include="Game\Types\GameState.h" />
     <ClInclude Include="Game\Types\ObjectType.h" />
     <ClInclude Include="Game\Utils\Utils.h" />
   </ItemGroup>
