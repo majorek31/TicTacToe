@@ -45,5 +45,7 @@ GameState Utils::CheckForGameState(Game* game) {
 
 		currentCheckObject = ObjectType::OBJECT_CROSS;
 	}
+	if (!game->GetGameMap()->HasFreeField())
+		return GameState::STATE_DRAW;
 	return GameState::STATE_RUNNING;
 }
