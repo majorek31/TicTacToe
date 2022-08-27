@@ -37,6 +37,11 @@ int main()
             return 0;
         }
         printf("\nIt's your turn: "); scanf_s("%d", &pnt);
+        if (pnt < 1 || pnt > 9) {
+            printf("\nInput is out of order! Please type number from 1-9 range");
+            Sleep(600);
+            continue;
+        }
         pnt--;
         if (game->GetGameMap()->IsFree(pnt)) {
             game->GetGameMap()->GetObjectAt(pnt)->SetObjectType(info.playerObject);
