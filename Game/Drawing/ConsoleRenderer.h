@@ -2,9 +2,8 @@
 #include "../Utils/Utils.h"
 #include "../Game.h"
 class Game;
-class ConsoleRenderer
+namespace ConsoleRenderer
 {
-public:
-	static void DrawBoard(Game* game);
+	void DrawBoard(Game* game);
 };
 
