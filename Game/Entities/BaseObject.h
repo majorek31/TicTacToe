@@ -1,5 +1,5 @@
 #pragma once
-#include "../Types/ObjectType.h"
+#include "../Types/GameTypes.h"
 class BaseObject {
 public:
 	ObjectType GetObjectType();

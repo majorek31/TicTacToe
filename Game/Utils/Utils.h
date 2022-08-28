@@ -1,7 +1,6 @@
 #pragma once
 #include "../Game.h"
-#include "../Types/GameState.h"
-#include "../Types/ObjectType.h"
+#include "../Types/GameTypes.h"
 class Game;
 namespace Utils {
 	char ConvectObjectTypeToChar(ObjectType type);
