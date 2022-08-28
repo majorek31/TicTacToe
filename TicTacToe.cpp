@@ -10,7 +10,7 @@ int main()
     info.aiLevel = AILevel::AI_LEVEL_MODE_EASY;
     info.playerObject = ObjectType::OBJECT_CROSS;
     Game* game = new Game(info);
-    
+    SetConsoleTitle(L"TicTacToe C++");
     while (true)
     {
         #if _WIN32
