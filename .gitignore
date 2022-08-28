@@ -1,3 +1,5 @@
 .vs
 Debug
 x64
+TicTacToe.vcxproj.filters
+TicTacToe.vcxproj.user
