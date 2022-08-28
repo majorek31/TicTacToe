@@ -5,9 +5,7 @@
 #include <time.h>
 #include "Entities/BaseObject.h"
 #include "Map.h"
-#include "Types/ObjectType.h"
-#include "Types/AILevels.h"
-#include "Types/GameStartInfo.h"
+#include "Types/GameTypes.h"
 #include "AI/AI.h"
 #include "Utils/Utils.h"
 #include "Drawing/ConsoleRenderer.h"

@@ -1,5 +1,4 @@
 #pragma once
-#include "../Utils/Utils.h"
 #include "../Game.h"
 class Game;
 class ConsoleRenderer
